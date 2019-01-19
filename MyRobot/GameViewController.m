@@ -99,6 +99,7 @@
 - (void)doOneAction:(NSTimer *)timer{
 
     if ([self.robotTasks count]) {
+        __weak GameViewController *weakSelf = self;
         [UIView animateWithDuration:self.timeInterval animations:^{
             RobotState *state = [self.robotTasks objectAtIndex:0];
             if (state.crashed) {
@@ -135,8 +136,8 @@
             }
             
             
-            karel.dirrection = state.dirrection;
-            karel.frame = state.rect;
+            weakSelf.karel.dirrection = state.dirrection;
+            weakSelf.karel.frame = state.rect;
             
             self.prevState = state;
             [self.robotTasks removeObject:state];

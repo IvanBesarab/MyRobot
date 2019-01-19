@@ -7,20 +7,20 @@
 //
 
 import UIKit
-//all robot commands can be founded in GameViewController.h
+//  All robot commands can be founded in GameViewController.h
 class SwiftRobotControlCenter: RobotControlCenter {
 	
-	//level name setup
+	//  Level name setup
 	override func viewDidLoad() {
-		levelName = "L0C" // level name
-
+		levelName = "L0C" //  Level name
+        
 		super.viewDidLoad()
 	}
 	
 	override func viewDidAppear(_ animated: Bool) {
 		
 		super.viewDidAppear(animated)
-		
+        
 		
 	}
 	
