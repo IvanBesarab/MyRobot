@@ -71,8 +71,6 @@
 		6B46F72719E06F6A00A7479C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B46F72919E06F6A00A7479C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6B46F72C19E06F6A00A7479C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		6B46F73719E06F6A00A7479C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B46F73819E06F6A00A7479C /* MyRobotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRobotTests.m; sourceTree = "<group>"; };
 		6B46F74219E06FA100A7479C /* BuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderViewController.h; sourceTree = "<group>"; };
 		6B46F74319E06FA100A7479C /* BuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderViewController.m; sourceTree = "<group>"; };
 		6B46F74519E0705F00A7479C /* Beeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Beeper.h; path = ../Beeper.h; sourceTree = "<group>"; };
@@ -161,7 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				6B46F71B19E06F6A00A7479C /* MyRobot */,
-				6B46F73519E06F6A00A7479C /* MyRobotTests */,
 				6B46F71A19E06F6A00A7479C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -224,23 +221,6 @@
 				6B46F72119E06F6A00A7479C /* AppDelegate.m */,
 				6B46F71D19E06F6A00A7479C /* Info.plist */,
 				6B46F71E19E06F6A00A7479C /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6B46F73519E06F6A00A7479C /* MyRobotTests */ = {
-			isa = PBXGroup;
-			children = (
-				6B46F73819E06F6A00A7479C /* MyRobotTests.m */,
-				6B46F73619E06F6A00A7479C /* Supporting Files */,
-			);
-			path = MyRobotTests;
-			sourceTree = "<group>";
-		};
-		6B46F73619E06F6A00A7479C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6B46F73719E06F6A00A7479C /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
