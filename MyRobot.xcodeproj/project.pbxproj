@@ -71,8 +71,6 @@
 		6B46F72719E06F6A00A7479C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B46F72919E06F6A00A7479C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6B46F72C19E06F6A00A7479C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		6B46F73719E06F6A00A7479C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B46F73819E06F6A00A7479C /* MyRobotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRobotTests.m; sourceTree = "<group>"; };
 		6B46F74219E06FA100A7479C /* BuilderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuilderViewController.h; sourceTree = "<group>"; };
 		6B46F74319E06FA100A7479C /* BuilderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuilderViewController.m; sourceTree = "<group>"; };
 		6B46F74519E0705F00A7479C /* Beeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Beeper.h; path = ../Beeper.h; sourceTree = "<group>"; };
@@ -161,7 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				6B46F71B19E06F6A00A7479C /* MyRobot */,
-				6B46F73519E06F6A00A7479C /* MyRobotTests */,
 				6B46F71A19E06F6A00A7479C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -228,23 +225,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6B46F73519E06F6A00A7479C /* MyRobotTests */ = {
-			isa = PBXGroup;
-			children = (
-				6B46F73819E06F6A00A7479C /* MyRobotTests.m */,
-				6B46F73619E06F6A00A7479C /* Supporting Files */,
-			);
-			path = MyRobotTests;
-			sourceTree = "<group>";
-		};
-		6B46F73619E06F6A00A7479C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6B46F73719E06F6A00A7479C /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		6B46F75319E0705F00A7479C /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -287,18 +267,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Ivan Besarab";
 				TargetAttributes = {
 					6B46F71819E06F6A00A7479C = {
 						CreatedOnToolsVersion = 6.0.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
 			buildConfigurationList = 6B46F71419E06F6A00A7479C /* Build configuration list for PBXProject "MyRobot" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -403,6 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -457,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -514,7 +496,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "MyRobot/MyRobot-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -530,7 +512,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MyRobot/MyRobot-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
