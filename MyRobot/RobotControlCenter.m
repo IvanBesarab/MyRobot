@@ -33,8 +33,12 @@
 - (void)viewDidAppear:(BOOL)animated{
     
     [super viewDidAppear:animated];
-    [self run];
-    
+	dispatch_queue_t queue;
+	queue = dispatch_queue_create("com.example.RobotTasksProcessingQueue", NULL);
+	dispatch_async(queue, ^{
+//		NSLog(@"RobotTasksProcessingQueue");
+		[self run];
+	});
 }
 
 - (IBAction)start {
@@ -46,7 +50,7 @@
 //---------------------------------------------------//
 
 - (void)run{
-   
+
 }
 
 //---------------------------------------------------//

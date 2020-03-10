@@ -11,5 +11,6 @@
 @interface RobotControlCenter : GameViewController
 
 @property (nonatomic) NSString *level_Name;
+- (void)run;
 
 @end

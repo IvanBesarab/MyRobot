@@ -125,7 +125,6 @@
                     Beeper *newBeeper = [self.candyToShow firstObject];
                     
                     [newBeeper setFrame:state.rect];
-                    //                [self.beepers addObject:newBeeper];
                     NSLog(@"Put candy");
                     [self.gameView addSubview:newBeeper];
                     [self.candyToShow removeObject:newBeeper];
@@ -144,8 +143,6 @@
             
 
         }];
-        //        [self updateUserInfo];
-        
     }
     else {
 
@@ -447,19 +444,19 @@
 }
 
 - (IBAction)turnRight {
-        self.actions++;
-    RobotState *newState = [[RobotState alloc] initWithState:[self.robotTasks lastObject]];
-    NSUInteger currentDirIndx = [[KerelView dirrections] indexOfObject:newState.dirrection];
-    if ([[KerelView dirrections] count] <= currentDirIndx+1) {
-        currentDirIndx = 0;
-    } else currentDirIndx++;
-    newState.dirrection = [[KerelView dirrections] objectAtIndex:currentDirIndx];
-    
-    [self.robotTasks addObject:newState];
-    
-//        [self.karel turnRight];
-//        [self displayCurrentPosAndDirrection];
-
+	self.actions++;
+	RobotState *newState = [[RobotState alloc] initWithState:[self.robotTasks lastObject]];
+	NSUInteger currentDirIndx = [[KerelView dirrections] indexOfObject:newState.dirrection];
+	if ([[KerelView dirrections] count] <= currentDirIndx+1) {
+		currentDirIndx = 0;
+	} else currentDirIndx++;
+	newState.dirrection = [[KerelView dirrections] objectAtIndex:currentDirIndx];
+	
+	[self.robotTasks addObject:newState];
+	
+	//        [self.karel turnRight];
+	//        [self displayCurrentPosAndDirrection];
+	
 }
 
 - (void)displayWorldInfo {
