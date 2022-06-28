@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4C1A15EC202C503F008DAE5F /* L666H.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C1A15EB202C503F008DAE5F /* L666H.plist */; };
 		4C29395C1F7D0594002CC686 /* L666H in Resources */ = {isa = PBXBuildFile; fileRef = 4C29395B1F7D053E002CC686 /* L666H */; };
-		4C7AD6AD240D804600E465EF /* MyRobotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7AD6AC240D804600E465EF /* MyRobotUITests.swift */; };
 		4C8BB46E1BCE900D0014528D /* SwiftRobotControlCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BB46D1BCE900D0014528D /* SwiftRobotControlCenter.swift */; };
 		4CCBD8F41A92824F004572EE /* L11C in Resources */ = {isa = PBXBuildFile; fileRef = 4CCBD8F31A92824F004572EE /* L11C */; };
 		4CCBD8F61A92825F004572EE /* L11C.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CCBD8F51A92825F004572EE /* L11C.plist */; };
@@ -56,20 +55,9 @@
 		A5B8D098286B6B2000907E91 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A5B8D097286B6B2000907E91 /* README.md */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4C7AD6AF240D804600E465EF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B46F71119E06F6A00A7479C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6B46F71819E06F6A00A7479C;
-			remoteInfo = MyRobot;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		4C1A15EB202C503F008DAE5F /* L666H.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = L666H.plist; sourceTree = "<group>"; };
 		4C29395B1F7D053E002CC686 /* L666H */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = L666H; sourceTree = "<group>"; };
-		4C7AD6AA240D804600E465EF /* MyRobotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyRobotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7AD6AC240D804600E465EF /* MyRobotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRobotUITests.swift; sourceTree = "<group>"; };
 		4C7AD6AE240D804600E465EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C8BB46C1BCE900D0014528D /* MyRobot-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyRobot-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -133,13 +121,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4C7AD6A7240D804600E465EF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6B46F71619E06F6A00A7479C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,7 +182,6 @@
 			isa = PBXGroup;
 			children = (
 				6B46F71919E06F6A00A7479C /* MyRobot.app */,
-				4C7AD6AA240D804600E465EF /* MyRobotUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -278,24 +258,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4C7AD6A9240D804600E465EF /* MyRobotUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4C7AD6B3240D804600E465EF /* Build configuration list for PBXNativeTarget "MyRobotUITests" */;
-			buildPhases = (
-				4C7AD6A6240D804600E465EF /* Sources */,
-				4C7AD6A7240D804600E465EF /* Frameworks */,
-				4C7AD6A8240D804600E465EF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4C7AD6B0240D804600E465EF /* PBXTargetDependency */,
-			);
-			name = MyRobotUITests;
-			productName = MyRobotUITests;
-			productReference = 4C7AD6AA240D804600E465EF /* MyRobotUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		6B46F71819E06F6A00A7479C /* MyRobot */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B46F73C19E06F6A00A7479C /* Build configuration list for PBXNativeTarget "MyRobot" */;
@@ -323,12 +285,6 @@
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Ivan Besarab";
 				TargetAttributes = {
-					4C7AD6A9240D804600E465EF = {
-						CreatedOnToolsVersion = 11.3.1;
-						DevelopmentTeam = T6XM5LZMCJ;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 6B46F71819E06F6A00A7479C;
-					};
 					6B46F71819E06F6A00A7479C = {
 						CreatedOnToolsVersion = 6.0.1;
 						LastSwiftMigration = 1100;
@@ -349,19 +305,11 @@
 			projectRoot = "";
 			targets = (
 				6B46F71819E06F6A00A7479C /* MyRobot */,
-				4C7AD6A9240D804600E465EF /* MyRobotUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4C7AD6A8240D804600E465EF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6B46F71719E06F6A00A7479C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -405,14 +353,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4C7AD6A6240D804600E465EF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C7AD6AD240D804600E465EF /* MyRobotUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6B46F71519E06F6A00A7479C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -435,14 +375,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		4C7AD6B0240D804600E465EF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6B46F71819E06F6A00A7479C /* MyRobot */;
-			targetProxy = 4C7AD6AF240D804600E465EF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		6B46F72619E06F6A00A7479C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -463,60 +395,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4C7AD6B1240D804600E465EF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = T6XM5LZMCJ;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = MyRobotUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = rocks.RockSoft.MyRobotUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MyRobot;
-			};
-			name = Debug;
-		};
-		4C7AD6B2240D804600E465EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = T6XM5LZMCJ;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = MyRobotUITests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = rocks.RockSoft.MyRobotUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MyRobot;
-			};
-			name = Release;
-		};
 		6B46F73A19E06F6A00A7479C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -657,15 +535,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4C7AD6B3240D804600E465EF /* Build configuration list for PBXNativeTarget "MyRobotUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4C7AD6B1240D804600E465EF /* Debug */,
-				4C7AD6B2240D804600E465EF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		6B46F71419E06F6A00A7479C /* Build configuration list for PBXProject "MyRobot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
