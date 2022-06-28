@@ -53,6 +53,7 @@
 		6B46F78D19E0725400A7479C /* L55H.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B46F77419E0725400A7479C /* L55H.plist */; };
 		6B46F78E19E0725400A7479C /* L555H in Resources */ = {isa = PBXBuildFile; fileRef = 6B46F77519E0725400A7479C /* L555H */; };
 		6B46F78F19E0725400A7479C /* L555H.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B46F77619E0725400A7479C /* L555H.plist */; };
+		A5B8D098286B6B2000907E91 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A5B8D097286B6B2000907E91 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,7 @@
 		6B46F77419E0725400A7479C /* L55H.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = L55H.plist; sourceTree = "<group>"; };
 		6B46F77519E0725400A7479C /* L555H */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = L555H; sourceTree = "<group>"; };
 		6B46F77619E0725400A7479C /* L555H.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = L555H.plist; sourceTree = "<group>"; };
+		A5B8D097286B6B2000907E91 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 		6B46F71019E06F6A00A7479C = {
 			isa = PBXGroup;
 			children = (
+				A5B8D097286B6B2000907E91 /* README.md */,
 				6B46F71B19E06F6A00A7479C /* MyRobot */,
 				4C7AD6AB240D804600E465EF /* MyRobotUITests */,
 				6B46F71A19E06F6A00A7479C /* Products */,
@@ -372,6 +375,7 @@
 				6B46F77F19E0725400A7479C /* L2H.plist in Resources */,
 				6B46F77B19E0725400A7479C /* L1H in Resources */,
 				6B46F78219E0725400A7479C /* L3H in Resources */,
+				A5B8D098286B6B2000907E91 /* README.md in Resources */,
 				6B46F78519E0725400A7479C /* L4.plist in Resources */,
 				6B46F72819E06F6A00A7479C /* Main.storyboard in Resources */,
 				6B46F72D19E06F6A00A7479C /* LaunchScreen.xib in Resources */,
