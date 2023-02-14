@@ -1,4 +1,4 @@
-# MyRobot Swift/Objective-C copy of Karel the Robot
+# MyRobot Swift/Objective-C clone of Karel the Robot
 
 - file to work on: SwiftRobotControlCenter.swift (Swift) or RobotControlCenter.m (Objective-C)
 - start writing your code inside run() function
