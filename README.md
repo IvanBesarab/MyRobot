@@ -14,3 +14,14 @@ Assignments:
 - L1C/L11C - double beepers
 - L4H/L55H/L555H/L666H - checkmate board
 - L4H/L55H/L555H/L666H - middle of the world
+
+Instructions:
+
+1. Download Xcode https://apps.apple.com/ua/app/xcode/id497799835?mt=12
+2. Download My robot project https://github.com/IvanBesarab/MyRobot
+3. Run project
+4. Press command + 1
+5. Select GameViewController.h file to see available commands
+6. Select SwiftRobotControlCenter.swift file and try to write some code inside func run() body
+7. Press command + r to run project on iPad simulator
+8. Once robot world appear on screen tap start button in lower right corner to see him in action
